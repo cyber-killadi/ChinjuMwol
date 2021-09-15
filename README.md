@@ -9,7 +9,7 @@
 <img src="https://i.imgur.com/07KGGa8.jpeg width="250" height="200"/>
 </p>
  <p align="center">
-<a href="#"><img title="CHINJUMWOL" src="https://i.imgur.com/4hSFapW.mp4"></a>
+<a href="#"><img title="CHINJUMWOL" src=""></a>
 </p>
   <p align="center">
 <a href="https://github.com/Ajnas-dz"><img title="Author" src="https://img.shields.io/badge/Ajnas-dz/ChinjuMwol?color=blue&style=for-the-badge&logo=whatsapp"></a>
