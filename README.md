@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="https://i.imgur.com/4hSFapW.mp4" alt="GIF" width="250" height="200"/>
+<img src="https://i.imgur.com/07KGGa8.jpeg width="250" height="200"/>
 </p>
  <p align="center">
 <a href="#"><img title="CHINJUMWOL" src="https://i.imgur.com/4hSFapW.mp4"></a>
