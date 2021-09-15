@@ -4,7 +4,7 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=ChinjuMwol+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+𝗔𝙅𝙉𝘼𝙎)](https://git.io/typing-svg)
 
-  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="https://i.imgur.com/07KGGa8.jpeg" height="400" width="450" /></a>
+  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="https://i.imgur.com/07KGGa8.jpeg" height="400" width="300" /></a>
 
 </p>
 
