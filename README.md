@@ -4,7 +4,7 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=B05C0+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+WAHID)](https://git.io/typing-svg)
 
-  <a href="https://youtu.be/iRLphwWvxrs" target="blank"><img align="center" src="NL.png" height="400" width="450" /></a>
+  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="NL.png" height="400" width="450" /></a>
 
 </p>
 
@@ -18,7 +18,7 @@
 
   <p align="center">
 
-<a href="https://github.com/WAHID-BOT"><img title="Author" src="https://img.shields.io/badge/Author-wagid-kallumthodi/bosco?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/WAHID-BOT"><img title="Author" src="https://img.shields.io/badge/Author-Ajnas-ChinjuMwol?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 
 </p>
 
