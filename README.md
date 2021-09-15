@@ -2,9 +2,9 @@
 
   
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=B05C0+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+WAHID)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=ChinjuMwol+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+𝗔𝙅𝙉𝘼𝙎)](https://git.io/typing-svg)
 
-  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="NL.png" height="400" width="450" /></a>
+  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="https://i.imgur.com/07KGGa8.jpeg" height="400" width="450" /></a>
 
 </p>
 
@@ -12,7 +12,7 @@
 
   <p align="center">
 
-<a href="#"><img title="B05C0" src="https://img.shields.io/badge/B05C0-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="CHINJUMWOL" src="https://img.shields.io/badge/CHINJUMWOL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </p>
 
