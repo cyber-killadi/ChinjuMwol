@@ -6,10 +6,10 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
+<img src="https://i.imgur.com/4hSFapW.mp4" alt="GIF" width="250" height="200"/>
 </p>
  <p align="center">
-<a href="#"><img title="CHINJUMWOL" src="https://i.imgur.com/4hSFapW.mp4-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="CHINJUMWOL" src="https://i.imgur.com/4hSFapW.mp4"></a>
 </p>
   <p align="center">
 <a href="https://github.com/Ajnas-dz"><img title="Author" src="https://img.shields.io/badge/Author-ameer-kallumthodi/pikachu?color=blue&style=for-the-badge&logo=whatsapp"></a>
