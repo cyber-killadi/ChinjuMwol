@@ -12,11 +12,11 @@
 <a href="#"><img title="CHINJUMWOL" src="https://i.imgur.com/4hSFapW.mp4"></a>
 </p>
   <p align="center">
-<a href="https://github.com/Ajnas-dz"><img title="Author" src="https://img.shields.io/badge/Author-ameer-kallumthodi/pikachu?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Ajnas-dz"><img title="Author" src="https://img.shields.io/badge/Ajnas-dz/ChinjuMwol?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/Ajnas-dz">Ajnas-dz</a> to make it public
+Project created by <a href="https://github.com/Ajnas-dz">𝗔𝙅𝙉𝘼𝙎</a> to make it public
     <br>
        | © |
         Reserved |
