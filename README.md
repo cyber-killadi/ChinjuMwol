@@ -2,7 +2,7 @@
 
   
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=ZhoraMwol+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+𝐀𝐤𝐤𝐮)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=ZhoraMwol+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+)](https://git.io/typing-svg)
 
   <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="" height="400" width="300" /></a>
 
@@ -12,13 +12,13 @@
 
   <p align="center">
 
-<a href="#"><img title="ZHORA MWOL" src="https://img.shields.io/badge/ZHORA MWOL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="ZHORA MWOL" src="https://img.shields.io/badge/CHINJUMWOL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
 </p>
 
   <p align="center">
 
-<a href="https://github.com/technox-1"><img title="Author" src="https://img.shields.io/badge/Author-𝐀𝐤𝐤𝐮-ChinjuMwol?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/technox-1"><img title="Author" src="https://img.shields.io/badge/Author-Ajnas-ChinjuMwol?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 
 </p>
 
@@ -26,7 +26,7 @@
 
 <p align="center">
 
-Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> to make it public
+Project created by <a href="https://github.com/technox-1">𝐙𝐡𝐨𝐫𝐚</a> to make it public
 
     <br>
 
