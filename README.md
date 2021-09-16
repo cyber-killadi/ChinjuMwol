@@ -48,7 +48,6 @@ Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> t
 
 <p align="center">
 
-<a href="https://github.com/technox-1/followers"><img title="Followers" src="https://img.shields.io/github/followers/technox-1?color=f7df1e&style=flat-square"></a>
 
 <a href="https://github.com/technox-1/B05C0/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/technox-1/B05C0?color=f7df1e&style=flat-square"></a>
 
@@ -60,15 +59,7 @@ Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> t
 
 <a href="https://instagram.com/_4fzl._" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
 
-</p>
 
-<h4 align="center">Support Video For Deploy Bot 👇:</h4>
-
-<p align="center">
-
-<a href="https://youtu.be/L8E4enqfYik" target="blank"><img align="center" src="https://i.ytimg.com/vi/iRLphwWvxrs/maxresdefault.jpg" height="180" width="300" /></a>
-
-</p>
 
   
 
