@@ -18,7 +18,7 @@
 
   <p align="center">
 
-<a href="https://github.com/technox-1"><img title="Author" src="https://img.shields.io/badge/Author-Ajnas-ChinjuMwol?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/technox-1"><img title="Author" src="https://img.shields.io/badge/Author-Akku-ZhoraMwol?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 
 </p>
 
@@ -26,7 +26,7 @@
 
 <p align="center">
 
-Project created by <a href="https://github.com/technox-1">𝐙𝐡𝐨𝐫𝐚</a> to make it public
+Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> to make it public
 
     <br>
 
