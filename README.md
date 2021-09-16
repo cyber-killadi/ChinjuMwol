@@ -44,7 +44,7 @@ Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> t
 
   <a href="httsp://github.com/technox-1/B05C0">
 
-    <img src="https://img.shields.io/github/repo-size/technox-1/B05C0?color=green&label=Repo%20total%20size&style=plastic">
+
 
 
 
