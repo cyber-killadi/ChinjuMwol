@@ -26,7 +26,7 @@
 
 <p align="center">
 
-Project created by <a href="https://github.com/technox-1">𝐙𝐡𝐨𝐫𝐚</a> to make it public
+Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> to make it public
 
     <br>
 
