@@ -58,7 +58,7 @@ Project created by <a href="https://github.com/technox-1">𝐙𝐡𝐨𝐫𝐚</
 
 <p align="center">
 
-<a href="https://instagram.com/w4hid_jr" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+<a href="https://instagram.com/_4fzl._" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
 
 </p>
 
