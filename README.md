@@ -10,7 +10,7 @@
 
   <p align="center">
 
-<a href="#"><img title="ZHORA MWOL" src="https://i.imgur.com/07KGGa8.jpeg"></a>
+<a href="#"><img title="ZHORA MWOL" src="https://i.imgur.com/07KGGa8.jpeg" height="400" width="300"></a>
 
 </p>
 
