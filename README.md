@@ -46,12 +46,10 @@ Project created by <a href="https://github.com/technox-1">𝐀𝐤𝐤𝐮</a> t
 
     <img src="https://img.shields.io/github/repo-size/technox-1/B05C0?color=green&label=Repo%20total%20size&style=plastic">
 
-<p align="center">
 
 
-<a href="https://github.com/technox-1/B05C0/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/technox-1/B05C0?color=f7df1e&style=flat-square"></a>
 
-<a href="https://github.com/technox-1/B05C0/network/members"><img title="Forks" src="https://img.shields.io/github/forks/technox-1/B05C0?color=f7df1e&style=flat-square"></a>
+
 
 <h3 align="center">Contact Me:</h3>
 
