@@ -10,7 +10,7 @@
 
   <p align="center">
 
-<a href="#"><img title="ZHORA MWOL" src="WhatsApp Image 2021-09-16 at 5.25.49 PM.jpeg"></a>
+<a href="#"><img title="ZHORA MWOL" src="https://i.imgur.com/07KGGa8.jpeg"></a>
 
 </p>
 
