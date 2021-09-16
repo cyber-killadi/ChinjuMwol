@@ -146,7 +146,7 @@ $ node bot.js
 
     
 
-  [![AKKU](https://github.com/technox-1.png?size=100)](https://github.com/technox-1) 
+  [![AKKU](https://github.com/technox-1.png?size=200)](https://github.com/technox-1) 
 
 ----|
 
