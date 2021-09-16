@@ -4,15 +4,13 @@
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times+new+roman&color=F7001E&size=25&lines=ZhoraMwol+Whatsapp+Bot;With+Tons+of+features;Complete+Malayalam+content;Best+Bgm+Bot;Edited+from+WhatsAsena;Made+By+)](https://git.io/typing-svg)
 
-  <a href="https://youtu.be/iRLphwWvxrs" ><img align="center" src="" height="400" width="300" /></a>
-
 </p>
 
   
 
   <p align="center">
 
-<a href="#"><img title="ZHORA MWOL" src="https://img.shields.io/badge/ZHORAMWOL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="ZHORA MWOL" src="WhatsApp Image 2021-09-16 at 5.25.49 PM.jpeg"></a>
 
 </p>
 
