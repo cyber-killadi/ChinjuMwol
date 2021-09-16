@@ -150,7 +150,7 @@ $ node bot.js
 
 ----|
 
-   [Muhammad afzal ](https://github.com/technox-1) 
+   [𝐌𝐮𝐡𝐚𝐦𝐦𝐚𝐝 𝐚𝐟𝐳𝐚𝐥](https://github.com/technox-1) 
 
 Base, Bug Fixes, Modules
 
