@@ -11,8 +11,8 @@ const path = require("path");
 const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
-const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./julie/');
+const {WAConnection, MessageType, Presence} = require('@adiwajshing/baileys');
+const {Message, StringSession, Image, Video} = require('./whatsasena/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const axios = require('axios');
@@ -99,7 +99,7 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
+${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
     });
     
 
@@ -125,7 +125,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('⬇️Installing plugins...')
+            chalk.blueBright.italic('🌈  Installing plugins...')
         );
 
         fs.readdirSync('./plugins').forEach(plugin => {
@@ -135,111 +135,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ zhora working!')
+            chalk.green.bold('zhora Running! 😎')
         );
-        await new Promise(r => setTimeout(r, 1100));
-
-        if (config.WORKTYPE == 'public') {
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
-
-                if (conn.user.jid === '@s.whatsapp.net') {
-
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Tespit Edildi!``` \n```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
-
-                    await new Promise(r => setTimeout(r, 1700));
-
-                    console.log('🛡️ Blacklist Detected 🛡️')
-
-                    await heroku.get(baseURI + '/formation').then(async (formation) => {
-                        forID = formation[0].id;
-                        await heroku.patch(baseURI + '/formation/' + forID, {
-                            body: {
-                                quantity: 0
-                            }
-                        });
-                    })
-                }
-                else {
-                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
-                }
-            }
-            else {
-
-                if (conn.user.jid === '@s.whatsapp.net') {
-
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
-
-                    await new Promise(r => setTimeout(r, 1800));
-
-                    console.log('🛡️ Blacklist Detected 🛡️')
-                    await heroku.get(baseURI + '/formation').then(async (formation) => {
-                        forID = formation[0].id;
-                        await heroku.patch(baseURI + '/formation/' + forID, {
-                            body: {
-                                quantity: 0
-                            }
-                        });
-                    })
-                }
-                else {
-                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
-                }
-
-            }
-        }
-        else if (config.WORKTYPE == 'private') {
-            if (config.LANG == 'TR' || config.LANG == 'AZ') {
-
-                if (conn.user.jid === '@s.whatsapp.net') {
-
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n ```Kullanıcı:``` \n```Sebep:``` ', MessageType.text)
-
-                    await new Promise(r => setTimeout(r, 1800));
-
-                    console.log('🛡️ Blacklist Detected 🛡️')
-                    await heroku.get(baseURI + '/formation').then(async (formation) => {
-                        forID = formation[0].id;
-                        await heroku.patch(baseURI + '/formation/' + forID, {
-                            body: {
-                                quantity: 0
-                            }
-                        });
-                    })
-                }
-                else {
-
-                await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
-                }
-            }
-            else {
-
-                if (conn.user.jid === '@s.whatsapp.net') {
-
-                    await conn.sendMessage(conn.user.jid, '```🛡️ Blacklist Detected!``` \n```User:```  \n```Reason:``` ', MessageType.text)
-   
-                    await new Promise(r => setTimeout(r, 1800));
-
-                    console.log('🛡️ Blacklist Detected 🛡️')
-                    await heroku.get(baseURI + '/formation').then(async (formation) => {
-                        forID = formation[0].id;
-                        await heroku.patch(baseURI + '/formation/' + forID, {
-                            body: {
-                                quantity: 0
-                            }
-                        });
-                    })
-                }
-                else {
-
-                    await conn.sendMessage(conn.user.jid, '*Bot Started*', MessageType.text);
-                }
-            }
-        }
-        else {
-            return console.log('Wrong WORK_TYPE key! Please use “private” or “public”')
-        }
     });
-
+    
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
@@ -251,69 +150,27 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         }
 
         if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-
+            // Görüşürüz Mesajı
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                if (gb.message.includes('{pp}')) {
-                let pp 
-                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                 var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message.replace('{pp}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) }); });                           
-            } else if (gb.message.includes('{gif}')) {
-                var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
-                //created by afnanplk
-                    var plkpinky = await axios.get(config.GIF_BYE, { responseType: 'arraybuffer' })
-                await conn.sendMessage(msg.key.remoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message.replace('{gif}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) });
-            } else {
-                var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
-                   await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name), MessageType.text);
-            }
-          }  //thanks to farhan      
-            return;
-        } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-            // welcome
-             var gb = await getMessage(msg.key.remoteJid);
-            if (gb !== false) {
-                if (gb.message.includes('{pp}')) {
                 let pp
                 try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
-                    var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                 await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
-                    //created by afnanplk
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message.replace('{pp}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) }); });                           
-            } else if (gb.message.includes('{gif}')) {
-                var plkpinky = await axios.get(config.WEL_GIF, { responseType: 'arraybuffer' })
-                await conn.sendMessage(msg.key.remoteJid, Buffer.from(plkpinky.data), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message.replace('{gif}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name) });
-            } else {
-                   var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
-                   await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name), MessageType.text);
+                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
             }
-          }         
-            return;                               
-    }
+            return;
+        } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
+            // Hoşgeldin Mesajı
+            var gb = await getMessage(msg.key.remoteJid);
+            if (gb !== false) {
+               let pp
+                try { pp = await conn.getProfilePicture(msg.messageStubParameters[0]); } catch { pp = await conn.getProfilePicture(); }
+                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => {
+                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {caption:  gb.message }); });
+            }
+            return;
+        }
 
-    if (config.BLOCKCHAT !== false) {     
-        var abc = config.BLOCKCHAT.split(',');                            
-        if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-    }
-    if (config.SUPPORT == '905524317852-1612300121') {     
-        var sup = config.SUPPORT.split(',');                            
-        if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-    }
-    if (config.SUPPORT2 == '905511384572-1617736751') {     
-        var tsup = config.SUPPORT2.split(',');                            
-        if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-    }
-    if (config.SUPPORT3 == '905511384572-1621015274') {     
-        var nsup = config.SUPPORT3.split(',');                            
-        if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-    }
-    if (config.SUPPORT4 == '905511384572-1625319286') {     
-        var nsup = config.SUPPORT4.split(',');                            
-        if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
-    }
-    
         events.commands.map(
             async (command) =>  {
                 if (msg.message && msg.message.imageMessage && msg.message.imageMessage.caption) {
@@ -348,7 +205,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-  
+                                
                     if (sendMsg) {
                         if (config.SEND_READ && command.on === undefined) {
                             await conn.chatRead(msg.key.remoteJid);
@@ -382,8 +239,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~zhora ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n'
+                                await conn.sendMessage(conn.user.jid, '*~♥️🕊️______ 𝐏𝐈𝐊𝐀𝐂𝐇𝐔 _____🕊️♥️~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n Max Error oyvakkan Subscribe cheyyu https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw'
                                     , MessageType.text);
                             }
                         }
